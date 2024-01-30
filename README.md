@@ -108,4 +108,4 @@ aws deploy create-deployment --cli-input-yaml file://appspec.yaml
 **Verifying the Deployment**
 Monitor the deployment in the AWS CodeDeploy console. Once it completes, visit the ALB DNS link again. You should now see the httpd welcome page, confirming the successful blue/green deployment with the new version of your application.
 
-For a detailed walkthrough of this project, please refer to the [article on dev.to](https://dev.to/bardawilpeter/smooth-and-steady-zero-downtime-deployments-with-aws-and-terraform-3aj0-temp-slug-9099150).
+For a detailed walkthrough of this project, please refer to the [article on dev.to](https://dev.to/bardawilpeter/smooth-and-steady-zero-downtime-deployments-with-aws-and-terraform-4kfp).
